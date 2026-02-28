@@ -10,6 +10,8 @@ from functools import wraps
 from datetime import datetime, timedelta
 from config import *
 from Database.database import Seishiro
+import sys
+print(sys.path)
 
 logger = logging.getLogger(__name__)
 
